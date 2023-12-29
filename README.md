@@ -62,22 +62,28 @@ This repository covers a variety of JavaScript topics, allowing you to practice 
    ```bash
    cd js-refresher/scope
 3.Open the code files in your preferred editor (e.g., VS Code).
-4. Read the comments, study the examples, and experiment with the code.
+4.Read the comments, study the examples, and experiment with the code.
 
 **Contributing**
+
 **Contributions are welcome! If you have improvements or additional topics you'd like to cover, please consider contributing. Here's how:**
 
-1.Fork the repository.
+1. Fork the repository.
 
-2.Create a new branch:
- ```bash
-git checkout -b feature/new-topic
-3.Make your changes and commit them:
-```bash
-git commit -m "Add details about new topic"
-4.Push your branch to your fork:
-```bash
-git push origin feature/new-topic
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/new-topic
+    ```
+
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add details about new topic"
+    ```
+
+4. Push your branch to your fork:
+    ```bash
+    git push origin feature/new-topic
+    ```
 
 **Your contributions help make this resource even better! Thank you for your support.**
 
