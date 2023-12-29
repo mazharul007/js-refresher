@@ -20,6 +20,53 @@ console.log(`I am learning ${language}`); // 📚 Output: I am learning Angular
 
 // ⚙️ Function: Building reusable blocks of code for efficient and modular development.
 
+/**
+ * Kinds of functions: regular functions, function expressions, named function expressions, arrow functions, anonymous functions
+ * Notes: If a function has no return type, then by default, it returns undefined, and in JS, undefined means something
+ */
+
+// Regular functions
+function greet() {
+  console.log("Morning, Mazhar!");
+
+  // Return undefined by default
+}
+
+let greetMsg = greet();
+console.log(greetMsg);
+
+// Function expression
+const greetExp = function () {
+  console.log("Hi, I am a function expression");
+};
+
+console.log(greetExp());
+
+// Named function expression
+const greetNamedExp = function hello() {
+  console.log("Hi, I am a named function expression");
+};
+
+console.log(greetNamedExp());
+
+// Arrow function
+const greetArrowFunc = () => {
+  console.log("Hello, I am an arrow function");
+};
+
+console.log(greetArrowFunc());
+
+// Function with parameters using arrow function
+const sum = (numOne, numTwo) => console.log(numOne + numTwo);
+console.log(sum(90, 110)); // Output: 200
+
+// Anonymous functions
+function parentFunc() {
+  return function () {
+    console.log("Hi, I am anonymous function!");
+  };
+}
+
 // 🎉 Event Handlers: Reacting to user actions and interactions with your web application.
 
 // 🔄 Primitive Vs Reference: Exploring the nuances of data types in JavaScript.
