@@ -72,13 +72,10 @@ This repository covers a variety of JavaScript topics, allowing you to practice 
 2.Create a new branch:
  ```bash
 git checkout -b feature/new-topic
-
 3.Make your changes and commit them:
 ```bash
 git commit -m "Add details about new topic"
-
 4.Push your branch to your fork:
-
 ```bash
 git push origin feature/new-topic
 
