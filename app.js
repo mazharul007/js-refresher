@@ -70,7 +70,7 @@ function parentFunc() {
 // 🎉 Event Handlers: Reacting to user actions and interactions with your web application.
 
 // select button : Exploring DOM
-const button = document.getElementById("btnClick");
+// const button = document.getElementById("btnClick");
 
 // event handler
 function hello() {
@@ -78,9 +78,33 @@ function hello() {
 }
 
 // add listener
-button.addEventListener("click", hello);
+// button.addEventListener("click", hello);
 
 // 🔄 Primitive Vs Reference: Exploring the nuances of data types in JavaScript.
+
+const primitives = ["String", "Number", "Boolean"];
+const referenceTypes = ["Array", "Object"]; // Corrected the variable name to follow camelCase convention
+
+// Difference between primitives vs reference value
+let x = 5;
+let y = 7;
+
+x = y; // Primitive assignment
+
+y = 100; // If the value of y changes, it doesn't reflect on x because it's pass by value; we are not affecting its reference
+console.log(x);
+console.log(y);
+
+// Reference type
+
+let lang = ["JS", "PHP"];
+
+let langTwo = ["html5", "css3"];
+
+lang = langTwo;
+
+langTwo[0] = "GO"; // Here, if we change the value at index 0, lang will also be changed because an array is a reference type
+console.log(lang);
 
 // 🧰 Array Methods: Unleashing the power of built-in methods for arrays.
 
