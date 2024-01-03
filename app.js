@@ -69,6 +69,17 @@ function parentFunc() {
 
 // 🎉 Event Handlers: Reacting to user actions and interactions with your web application.
 
+// select button : Exploring DOM
+const button = document.getElementById("btnClick");
+
+// event handler
+function hello() {
+  console.log("onclick hello triggered");
+}
+
+// add listener
+button.addEventListener("click", hello);
+
 // 🔄 Primitive Vs Reference: Exploring the nuances of data types in JavaScript.
 
 // 🧰 Array Methods: Unleashing the power of built-in methods for arrays.
